@@ -1,0 +1,123 @@
+:root {
+    --bg-color: #111;
+    --text-color: white;
+    --text-color2: #e5e5e5;
+}
+
+body {
+    color: var(--text-color);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--bg-color);
+}
+
+.container {
+    min-height: 58rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.container a {
+    color: var(--text-color2);
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: var(--text-color)
+}
+
+.profile {
+    min-height: 50rem;
+    /* height: 100vh;  */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.profile p {
+    margin: 3px 0;
+}
+
+.profile a {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+.return {
+    color: var(--text-color);
+    text-align: center;
+    position: fixed;
+    bottom: 1.75rem;
+    width: 100%;
+}
+
+.return a {
+    text-decoration: none;
+    color: var(--text-color2);
+}
+
+.return a:hover {
+    color: var(--text-color);
+}
+
+.description {
+    text-align: center;
+    width: 19rem
+}
+
+.error {
+    text-align: center;
+}
+
+img {
+    height: 125px;
+    width: 125px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+footer {
+    color: var(--text-color);
+    text-align: center;
+    position: fixed;
+    bottom: 0.3rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        min-height: 40rem;
+        padding: 1rem;
+    }
+
+    .profile {
+        min-height: 40rem;
+    }
+
+    .description {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .return {
+        bottom: 1rem;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        bottom: 0.5rem;
+    }
+}
