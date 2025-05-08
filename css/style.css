@@ -121,3 +121,7 @@ footer {
         bottom: 0.5rem;
     }
 }
+
+.nandi { 
+    object-fit: cover;
+}

@@ -16,4 +16,8 @@ function showDcKip() {
     alert('@caligirls | 110693017054089307');
 }
 
+function showDcNandi() {
+    alert('@w9a | 418083852523798533')
+}
+
 //shit code alert!
