@@ -20,4 +20,8 @@ function showDcNandi() {
     alert('@w9a | 418083852523798533')
 }
 
+function showDcOffside() {
+    alert('@offsidelol | 417046097543036929')
+}
+
 //shit code alert!
