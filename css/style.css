@@ -125,3 +125,10 @@ footer {
 .nandi { 
     object-fit: cover;
 }
+
+.audio {
+    background-color: var(--text-color);
+    border: 0.1px solid white;
+    border-radius: 25px;
+    padding: 5px;
+}
