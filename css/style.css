@@ -75,6 +75,11 @@ body {
     text-align: center;
 }
 
+.glow {
+	color: #fff;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
 img {
     height: 125px;
     width: 125px;

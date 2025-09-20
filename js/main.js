@@ -13,7 +13,7 @@ function showDcInternal() {
 }
 
 function showDcKip() {
-    alert('@caligirls | 110693017054089307');
+    alert('@tittyfucks | 1273362781927641226');
 }
 
 function showDcNandi() {
